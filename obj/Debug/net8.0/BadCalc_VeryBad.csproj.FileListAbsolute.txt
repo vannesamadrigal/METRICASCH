@@ -1,0 +1,14 @@
+C:\Users\Lenovo\Downloads\LaMalaCalculadora\bin\Debug\net8.0\BadCalc_VeryBad.exe
+C:\Users\Lenovo\Downloads\LaMalaCalculadora\bin\Debug\net8.0\BadCalc_VeryBad.deps.json
+C:\Users\Lenovo\Downloads\LaMalaCalculadora\bin\Debug\net8.0\BadCalc_VeryBad.runtimeconfig.json
+C:\Users\Lenovo\Downloads\LaMalaCalculadora\bin\Debug\net8.0\BadCalc_VeryBad.dll
+C:\Users\Lenovo\Downloads\LaMalaCalculadora\bin\Debug\net8.0\BadCalc_VeryBad.pdb
+C:\Users\Lenovo\Downloads\LaMalaCalculadora\obj\Debug\net8.0\BadCalc_VeryBad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Downloads\LaMalaCalculadora\obj\Debug\net8.0\BadCalc_VeryBad.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Downloads\LaMalaCalculadora\obj\Debug\net8.0\BadCalc_VeryBad.AssemblyInfo.cs
+C:\Users\Lenovo\Downloads\LaMalaCalculadora\obj\Debug\net8.0\BadCalc_VeryBad.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Downloads\LaMalaCalculadora\obj\Debug\net8.0\BadCalc_VeryBad.dll
+C:\Users\Lenovo\Downloads\LaMalaCalculadora\obj\Debug\net8.0\refint\BadCalc_VeryBad.dll
+C:\Users\Lenovo\Downloads\LaMalaCalculadora\obj\Debug\net8.0\BadCalc_VeryBad.pdb
+C:\Users\Lenovo\Downloads\LaMalaCalculadora\obj\Debug\net8.0\BadCalc_VeryBad.genruntimeconfig.cache
+C:\Users\Lenovo\Downloads\LaMalaCalculadora\obj\Debug\net8.0\ref\BadCalc_VeryBad.dll
