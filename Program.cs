@@ -12,8 +12,6 @@ namespace BadCalcVeryBad
     public class U
     {
         public ArrayList G1 { get; set; } = new ArrayList();
-
-        private string last { get; set; }
         public string misc { get; set; }
     }
 
@@ -22,8 +20,9 @@ namespace BadCalcVeryBad
         private double x { get; set; }
         private double y { get; set; }
         private string op { get; set; }
-        //Se establecio asi para que continue static y sea seguro en hilos
+        // ThreadLocal<Random> para que el método static sea seguro en hilos
         private static readonly ThreadLocal<Random> r = new ThreadLocal<Random>(() => new Random());
+
         private object any { get; set; }
 
         public ShoddyCalc() { x = 0; y = 0; op = ""; any = null; }
@@ -81,11 +80,9 @@ namespace BadCalcVeryBad
     class Program
     {
 
-        //Se comento por que no se usa y genera error 
-        //private readonly ShoddyCalc calc = new ShoddyCalc();
         private static readonly U globals = new U();
 
-        public Program()
+        protected Program()
         {
 
         }
