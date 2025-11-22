@@ -1,12 +1,8 @@
-O
-BadCalcVeryBad.Programobject-
-	Program() BadCalcVeryBad.Program.Program()™
+Ë
 BadCalcVeryBad.Uobject
 U()BadCalcVeryBad.U.U()!
 G1.getBadCalcVeryBad.U.G1.get!
 G1.setBadCalcVeryBad.U.G1.set%
-last.getBadCalcVeryBad.U.last.get%
-last.setBadCalcVeryBad.U.last.set%
 misc.getBadCalcVeryBad.U.misc.get%
 misc.setBadCalcVeryBad.U.misc.set·
 BadCalcVeryBad.ShoddyCalcobject6
@@ -18,4 +14,6 @@ O
 op.get BadCalcVeryBad.ShoddyCalc.op.get*
 op.set BadCalcVeryBad.ShoddyCalc.op.set,
 any.get!BadCalcVeryBad.ShoddyCalc.any.get,
-any.set!BadCalcVeryBad.ShoddyCalc.any.set
+any.set!BadCalcVeryBad.ShoddyCalc.any.setO
+BadCalcVeryBad.Programobject-
+	Program() BadCalcVeryBad.Program.Program()

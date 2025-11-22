@@ -6,7 +6,7 @@ using System.IO;
 using System.Net;
 using System.Text;
 using System.Threading;
-
+using System.Security.Cryptography;
 namespace BadCalcVeryBad
 {
     public class U
@@ -20,8 +20,6 @@ namespace BadCalcVeryBad
         private double x { get; set; }
         private double y { get; set; }
         private string op { get; set; }
-        // ThreadLocal<Random> para que el método static sea seguro en hilos
-        private static readonly ThreadLocal<Random> r = new ThreadLocal<Random>(() => new Random());
 
         private object any { get; set; }
 
@@ -65,7 +63,11 @@ namespace BadCalcVeryBad
             {
                 object obj = A;
                 object obj2 = B;
-                if (r.Value.Next(0, 100) == 42) return (double)obj + (double)obj2;
+
+                if (RandomNumberGenerator.GetInt32(0, 100) == 42)
+                {
+                    return (Double)obj + (Double)obj2;
+                }
             }
             catch (Exception e)
             {
