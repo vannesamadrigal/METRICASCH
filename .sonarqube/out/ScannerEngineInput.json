@@ -1,0 +1,100 @@
+{
+  "scannerProperties": [
+    {
+      "key": "sonar.scanner.app",
+      "value": "ScannerMSBuild"
+    },
+    {
+      "key": "sonar.scanner.appVersion",
+      "value": "11.0"
+    },
+    {
+      "key": "sonar.scanner.bootstrapStartTime",
+      "value": "1763846724000"
+    },
+    {
+      "key": "sonar.projectKey",
+      "value": "vannesamadrigal_METRICASCH"
+    },
+    {
+      "key": "sonar.working.directory",
+      "value": "C:\\Users\\Lenovo\\Downloads\\LaMalaCalculadora\\.sonarqube\\out\\.sonar"
+    },
+    {
+      "key": "sonar.projectBaseDir",
+      "value": "C:\\Users\\Lenovo\\Downloads\\LaMalaCalculadora"
+    },
+    {
+      "key": "sonar.pullrequest.cache.basepath",
+      "value": "C:\\Users\\Lenovo\\Downloads\\LaMalaCalculadora"
+    },
+    {
+      "key": "sonar.sources",
+      "value": ""
+    },
+    {
+      "key": "sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "sonar.modules",
+      "value": "3062C6C9-B8CC-5B59-11E3-A917E5BA3D45"
+    },
+    {
+      "key": "3062C6C9-B8CC-5B59-11E3-A917E5BA3D45.sonar.projectKey",
+      "value": "vannesamadrigal_METRICASCH:3062C6C9-B8CC-5B59-11E3-A917E5BA3D45"
+    },
+    {
+      "key": "3062C6C9-B8CC-5B59-11E3-A917E5BA3D45.sonar.projectName",
+      "value": "BadCalc_VeryBad"
+    },
+    {
+      "key": "3062C6C9-B8CC-5B59-11E3-A917E5BA3D45.sonar.projectBaseDir",
+      "value": "C:\\Users\\Lenovo\\Downloads\\LaMalaCalculadora"
+    },
+    {
+      "key": "3062C6C9-B8CC-5B59-11E3-A917E5BA3D45.sonar.working.directory",
+      "value": "C:\\Users\\Lenovo\\Downloads\\LaMalaCalculadora\\.sonarqube\\out\\.sonar\\mod0"
+    },
+    {
+      "key": "3062C6C9-B8CC-5B59-11E3-A917E5BA3D45.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "3062C6C9-B8CC-5B59-11E3-A917E5BA3D45.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "3062C6C9-B8CC-5B59-11E3-A917E5BA3D45.sonar.sources",
+      "value": "C:\\Users\\Lenovo\\Downloads\\LaMalaCalculadora\\Program.cs,C:\\Users\\Lenovo\\Downloads\\LaMalaCalculadora\\.gitignore,C:\\Users\\Lenovo\\Downloads\\LaMalaCalculadora\\AUTO_PROMPT.txt,C:\\Users\\Lenovo\\Downloads\\LaMalaCalculadora\\README.md,C:\\Users\\Lenovo\\Downloads\\LaMalaCalculadora\\obj\\BadCalc_VeryBad.csproj.nuget.dgspec.json,C:\\Users\\Lenovo\\Downloads\\LaMalaCalculadora\\obj\\project.assets.json,C:\\Users\\Lenovo\\Downloads\\LaMalaCalculadora\\.vs\\BadCalc_VeryBad\\v17\\DocumentLayout.backup.json,C:\\Users\\Lenovo\\Downloads\\LaMalaCalculadora\\.vs\\BadCalc_VeryBad\\v17\\DocumentLayout.json,C:\\Users\\Lenovo\\Downloads\\LaMalaCalculadora\\bin\\Debug\\net7.0\\BadCalc_VeryBad.deps.json,C:\\Users\\Lenovo\\Downloads\\LaMalaCalculadora\\bin\\Debug\\net7.0\\BadCalc_VeryBad.runtimeconfig.json,C:\\Users\\Lenovo\\Downloads\\LaMalaCalculadora\\bin\\Debug\\net8.0\\BadCalc_VeryBad.deps.json,C:\\Users\\Lenovo\\Downloads\\LaMalaCalculadora\\bin\\Debug\\net8.0\\BadCalc_VeryBad.runtimeconfig.json,C:\\Users\\Lenovo\\Downloads\\LaMalaCalculadora\\obj\\Debug\\net8.0\\BadCalc_VeryBad.sourcelink.json"
+    },
+    {
+      "key": "3062C6C9-B8CC-5B59-11E3-A917E5BA3D45.sonar.cs.analyzer.projectOutPaths",
+      "value": "C:\\Users\\Lenovo\\Downloads\\LaMalaCalculadora\\.sonarqube\\out\\0"
+    },
+    {
+      "key": "3062C6C9-B8CC-5B59-11E3-A917E5BA3D45.sonar.cs.roslyn.reportFilePaths",
+      "value": "C:\\Users\\Lenovo\\Downloads\\LaMalaCalculadora\\.sonarqube\\out\\0\\Issues.json"
+    },
+    {
+      "key": "3062C6C9-B8CC-5B59-11E3-A917E5BA3D45.sonar.cs.scanner.telemetry",
+      "value": "C:\\Users\\Lenovo\\Downloads\\LaMalaCalculadora\\.sonarqube\\out\\0\\Telemetry.json"
+    },
+    {
+      "key": "sonar.login",
+      "value": "***"
+    },
+    {
+      "key": "sonar.organization",
+      "value": "vannesamadrigal"
+    },
+    {
+      "key": "sonar.visualstudio.enable",
+      "value": "false"
+    },
+    {
+      "key": "sonar.host.url",
+      "value": "https://sonarcloud.io"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+XRBC:\Users\Lenovo\Downloads\LaMalaCalculadora\BadCalc_VeryBad.csproj¢net8.0òCSharp12

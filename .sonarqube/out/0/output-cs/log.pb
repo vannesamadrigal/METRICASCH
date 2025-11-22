@@ -1,0 +1,1 @@
+Roslyn version: 4.14.0.0Language version: CSharp12!Concurrent execution: enabledƒFile 'C:\Users\Lenovo\Downloads\LaMalaCalculadora\obj\Debug\net8.0\BadCalc_VeryBad.AssemblyInfo.cs' was recognized as generated“ŽFile 'C:\Users\Lenovo\Downloads\LaMalaCalculadora\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs' was recognized as generated

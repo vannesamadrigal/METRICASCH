@@ -1,0 +1,4 @@
+﻿C:\Users\Lenovo\Downloads\LaMalaCalculadora\Program.cs
+C:\Users\Lenovo\Downloads\LaMalaCalculadora\.gitignore
+C:\Users\Lenovo\Downloads\LaMalaCalculadora\AUTO_PROMPT.txt
+C:\Users\Lenovo\Downloads\LaMalaCalculadora\README.md

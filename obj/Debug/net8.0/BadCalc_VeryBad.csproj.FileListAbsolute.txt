@@ -12,3 +12,4 @@ C:\Users\Lenovo\Downloads\LaMalaCalculadora\obj\Debug\net8.0\refint\BadCalc_Very
 C:\Users\Lenovo\Downloads\LaMalaCalculadora\obj\Debug\net8.0\BadCalc_VeryBad.pdb
 C:\Users\Lenovo\Downloads\LaMalaCalculadora\obj\Debug\net8.0\BadCalc_VeryBad.genruntimeconfig.cache
 C:\Users\Lenovo\Downloads\LaMalaCalculadora\obj\Debug\net8.0\ref\BadCalc_VeryBad.dll
+C:\Users\Lenovo\Downloads\LaMalaCalculadora\obj\Debug\net8.0\BadCalc_VeryBad.sourcelink.json

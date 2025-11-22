@@ -1,0 +1,1619 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.14.0.0",
+        "fileVersion": "4.14.0-3.25465.8 (b0a9adbf)",
+        "semanticVersion": "4.14.0",
+        "language": "es-MX"
+      },
+      "results": [
+        {
+          "ruleId": "CS0219",
+          "level": "warning",
+          "message": "La variable 'sys' está asignada pero su valor nunca se usa",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 136,
+                  "startColumn": 25,
+                  "endLine": 136,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CA2211",
+          "level": "note",
+          "message": "Los campos no constantes no deben ser visibles",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 27,
+                  "endLine": 19,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2211",
+          "level": "note",
+          "message": "Los campos no constantes no deben ser visibles",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 33,
+                  "endLine": 17,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2211",
+          "level": "note",
+          "message": "Los campos no constantes no deben ser visibles",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 30,
+                  "endLine": 18,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 27,
+                  "endLine": 19,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 23,
+                  "endLine": 20,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 30,
+                  "endLine": 18,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1118",
+          "level": "warning",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 76,
+                  "startColumn": 11,
+                  "endLine": 76,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'counter' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 27,
+                  "endLine": 19,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'last' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 30,
+                  "endLine": 18,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 33,
+                  "endLine": 17,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'G' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 33,
+                  "endLine": 17,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'calc' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 34,
+                  "endLine": 78,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 23,
+                  "endLine": 25,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'globals' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 79,
+                  "startColumn": 25,
+                  "endLine": 79,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 23,
+                  "endLine": 27,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 23,
+                  "endLine": 26,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2211",
+          "level": "note",
+          "message": "Los campos no constantes no deben ser visibles",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 30,
+                  "endLine": 28,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 23,
+                  "endLine": 29,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2245",
+          "level": "warning",
+          "message": "Make sure that using this pseudorandom number generator is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 34,
+                  "endLine": 28,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 30,
+                  "endLine": 28,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'r' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 30,
+                  "endLine": 28,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3923",
+          "level": "warning",
+          "message": "Remove this conditional structure or edit its code blocks so that they're not all the same.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 157,
+                  "startColumn": 29,
+                  "endLine": 157,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2486",
+          "level": "warning",
+          "message": "Handle the exception or explain in a comment why it can be ignored.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 13,
+                  "endLine": 69,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2486",
+          "level": "warning",
+          "message": "Handle the exception or explain in a comment why it can be ignored.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 13,
+                  "endLine": 87,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2486",
+          "level": "warning",
+          "message": "Handle the exception or explain in a comment why it can be ignored.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 165,
+                  "startColumn": 13,
+                  "endLine": 165,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2486",
+          "level": "warning",
+          "message": "Handle the exception or explain in a comment why it can be ignored.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 175,
+                  "startColumn": 13,
+                  "endLine": 175,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2486",
+          "level": "warning",
+          "message": "Handle the exception or explain in a comment why it can be ignored.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 187,
+                  "startColumn": 13,
+                  "endLine": 187,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S108",
+          "level": "warning",
+          "message": "Either remove or fill this block of code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 19,
+                  "endLine": 69,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1244",
+          "level": "warning",
+          "message": "Do not check floating point equality with exact values, use a range instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 23,
+                  "endLine": 52,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 44 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 21,
+                  "endLine": 81,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 13,
+                  "endLine": 87,
+                  "endColumn": 18
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 13,
+                  "endLine": 94,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 27,
+                  "endLine": 94,
+                  "endColumn": 31
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 13,
+                  "endLine": 96,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 26,
+                  "endLine": 96,
+                  "endColumn": 28
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 13,
+                  "endLine": 103,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 110,
+                  "startColumn": 13,
+                  "endLine": 110,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 111,
+                  "startColumn": 13,
+                  "endLine": 111,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 112,
+                  "startColumn": 13,
+                  "endLine": 112,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 113,
+                  "startColumn": 13,
+                  "endLine": 113,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 114,
+                  "startColumn": 13,
+                  "endLine": 114,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 13,
+                  "endLine": 115,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 116,
+                  "startColumn": 13,
+                  "endLine": 116,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 121,
+                  "startColumn": 17,
+                  "endLine": 121,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 124,
+                  "startColumn": 21,
+                  "endLine": 124,
+                  "endColumn": 28
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 126,
+                  "startColumn": 21,
+                  "endLine": 126,
+                  "endColumn": 25
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 128,
+                  "startColumn": 17,
+                  "endLine": 128,
+                  "endColumn": 21
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 139,
+                  "startColumn": 21,
+                  "endLine": 139,
+                  "endColumn": 25
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 141,
+                  "startColumn": 17,
+                  "endLine": 141,
+                  "endColumn": 21
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 143,
+                  "startColumn": 21,
+                  "endLine": 143,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 146,
+                  "startColumn": 25,
+                  "endLine": 146,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 146,
+                  "startColumn": 65,
+                  "endLine": 146,
+                  "endColumn": 69
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 148,
+                  "startColumn": 21,
+                  "endLine": 148,
+                  "endColumn": 25
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 150,
+                  "startColumn": 25,
+                  "endLine": 150,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 150,
+                  "startColumn": 38,
+                  "endLine": 150,
+                  "endColumn": 40
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 155,
+                  "startColumn": 25,
+                  "endLine": 155,
+                  "endColumn": 29
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 157,
+                  "startColumn": 29,
+                  "endLine": 157,
+                  "endColumn": 31
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 159,
+                  "startColumn": 29,
+                  "endLine": 159,
+                  "endColumn": 33
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 165,
+                  "startColumn": 13,
+                  "endLine": 165,
+                  "endColumn": 18
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 175,
+                  "startColumn": 13,
+                  "endLine": 175,
+                  "endColumn": 18
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 180,
+                  "startColumn": 13,
+                  "endLine": 180,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 187,
+                  "startColumn": 13,
+                  "endLine": 187,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "10": "+1",
+              "11": "+1",
+              "12": "+1",
+              "13": "+1",
+              "14": "+2 (incl 1 for nesting)",
+              "15": "+2 (incl 1 for nesting)",
+              "16": "+1",
+              "17": "+2 (incl 1 for nesting)",
+              "18": "+1",
+              "19": "+2 (incl 1 for nesting)",
+              "2": "+2 (incl 1 for nesting)",
+              "20": "+3 (incl 2 for nesting)",
+              "21": "+1",
+              "22": "+1",
+              "23": "+3 (incl 2 for nesting)",
+              "24": "+1",
+              "25": "+1",
+              "26": "+4 (incl 3 for nesting)",
+              "27": "+1",
+              "28": "+1",
+              "29": "+1",
+              "3": "+1",
+              "30": "+1",
+              "31": "+1",
+              "4": "+1",
+              "5": "+1",
+              "6": "+1",
+              "7": "+1",
+              "8": "+1",
+              "9": "+1"
+            }
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'DoIt' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 23,
+                  "endLine": 33,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2245",
+          "level": "warning",
+          "message": "Make sure that using this pseudorandom number generator is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 179,
+                  "startColumn": 26,
+                  "endLine": 179,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S108",
+          "level": "warning",
+          "message": "Either remove or fill this block of code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 19,
+                  "endLine": 87,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S108",
+          "level": "warning",
+          "message": "Either remove or fill this block of code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 165,
+                  "startColumn": 19,
+                  "endLine": 165,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S108",
+          "level": "warning",
+          "message": "Either remove or fill this block of code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 175,
+                  "startColumn": 19,
+                  "endLine": 175,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S108",
+          "level": "warning",
+          "message": "Either remove or fill this block of code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 187,
+                  "startColumn": 19,
+                  "endLine": 187,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1244",
+          "level": "warning",
+          "message": "Do not check floating point equality with exact values, use a range instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 150,
+                  "startColumn": 53,
+                  "endLine": 150,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 27,
+                  "endLine": 94,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 126,
+                  "startColumn": 21,
+                  "endLine": 126,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 139,
+                  "startColumn": 21,
+                  "endLine": 139,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 180,
+                  "startColumn": 13,
+                  "endLine": 180,
+                  "endColumn": 17
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"DoIt\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 23,
+                  "endLine": 33,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'tpl'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 133,
+                  "startColumn": 25,
+                  "endLine": 133,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'uin'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 135,
+                  "startColumn": 25,
+                  "endLine": 135,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'sys'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Lenovo/Downloads/LaMalaCalculadora/Program.cs",
+                "region": {
+                  "startLine": 136,
+                  "startColumn": 25,
+                  "endLine": 136,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1822": {
+          "id": "CA1822",
+          "shortDescription": "Marcar miembros como static",
+          "fullDescription": "Los miembros que no tienen acceso a datos de instancia o que llaman a métodos de instancia se pueden marcar como static. Después de marcar los métodos como static, el compilador emitirá los sitios de llamada no virtuales para estos miembros. Esto puede proporcionar una mejora apreciable del rendimiento del código sensible al rendimiento.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1822",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA2211": {
+          "id": "CA2211",
+          "shortDescription": "Los campos no constantes no deben ser visibles",
+          "fullDescription": "Los campos estáticos que no son constantes ni de solo lectura no son seguros para los subprocesos. El acceso a campos de este tipo se debe controlar atentamente y requiere técnicas de programación avanzadas para sincronizar el acceso al objeto de clase.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2211",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CS0219": {
+          "id": "CS0219",
+          "shortDescription": "La variable está asignada pero nunca se usa su valor",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0219)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S108": {
+          "id": "S108",
+          "shortDescription": "Nested blocks of code should not be left empty",
+          "fullDescription": "An empty code block is confusing. It will require some effort from maintainers to determine if it is intentional or indicates the implementation is incomplete.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-108",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1104": {
+          "id": "S1104",
+          "shortDescription": "Fields should not have public accessibility",
+          "fullDescription": "Public fields in public classes do not respect the encapsulation principle and have three main disadvantages:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1104",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1118": {
+          "id": "S1118",
+          "shortDescription": "Utility classes should not have public constructors",
+          "fullDescription": "Whenever there are portions of code that are duplicated and do not depend on the state of their container class, they can be centralized inside a \"utility class\". A utility class is a class that only has static members, hence it should not be instantiated.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1118",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1244": {
+          "id": "S1244",
+          "shortDescription": "Floating point numbers should not be tested for equality",
+          "fullDescription": "Floating point numbers in C# (and in most other programming languages) are not precise. They are a binary approximation of the actual value. This means that even if two floating point numbers appear to be equal, they might not be due to the tiny differences in their binary representation.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1244",
+          "properties": {
+            "category": "Major Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1481": {
+          "id": "S1481",
+          "shortDescription": "Unused local variables should be removed",
+          "fullDescription": "An unused local variable is a variable that has been declared but is not used anywhere in the block of code where it is defined. It is dead code, contributing to unnecessary complexity and leading to confusion when reading the code. Therefore, it should be removed from your code to maintain clarity and efficiency.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1481",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2223": {
+          "id": "S2223",
+          "shortDescription": "Non-constant static fields should not be visible",
+          "fullDescription": "Unlike instance fields, which can only be accessed by code having a hold on the instance, static fields can be accessed by any code having visibility of the field and its type.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2223",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2245": {
+          "id": "S2245",
+          "shortDescription": "Using pseudorandom number generators (PRNGs) is security-sensitive",
+          "fullDescription": "PRNGs are algorithms that produce sequences of numbers that only approximate true randomness. While they are suitable for applications like simulations or modeling, they are not appropriate for security-sensitive contexts because their outputs can be predictable if the internal state is known.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2245",
+          "properties": {
+            "category": "Critical Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2325": {
+          "id": "S2325",
+          "shortDescription": "Methods and properties that don't access instance data should be static",
+          "fullDescription": "Methods and properties that don’t access instance data should be marked as static for the following reasons:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2325",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2486": {
+          "id": "S2486",
+          "shortDescription": "Generic exceptions should not be ignored",
+          "fullDescription": "When exceptions occur, it is usually a bad idea to simply ignore them. Instead, it is better to handle them properly, or at least to log them.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2486",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3776": {
+          "id": "S3776",
+          "shortDescription": "Cognitive Complexity of methods should not be too high",
+          "fullDescription": "This rule raises an issue when the code cognitive complexity of a function is above a certain threshold.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3776",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3923": {
+          "id": "S3923",
+          "shortDescription": "All branches in a conditional structure should not have exactly the same implementation",
+          "fullDescription": "Having all branches of a switch or if chain with the same implementation indicates a problem.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3923",
+          "properties": {
+            "category": "Major Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S907": {
+          "id": "S907",
+          "shortDescription": "\"goto\" statement should not be used",
+          "fullDescription": "goto is an unstructured control flow statement. It makes code less readable and maintainable. Structured control flow statements such as if, for, while, continue or break should be used instead.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-907",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
