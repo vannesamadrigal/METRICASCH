@@ -14,7 +14,6 @@ namespace BadCalcVeryBad
         public ArrayList G1 { get; set; } = new ArrayList();
 
         private string last { get; set; }
-        private int counter { get; set; }
         public string misc { get; set; }
     }
 
@@ -23,7 +22,8 @@ namespace BadCalcVeryBad
         private double x { get; set; }
         private double y { get; set; }
         private string op { get; set; }
-        private static readonly Random r = new Random();
+        //Se establecio asi para que continue static y sea seguro en hilos
+        private static readonly ThreadLocal<Random> r = new ThreadLocal<Random>(() => new Random());
         private object any { get; set; }
 
         public ShoddyCalc() { x = 0; y = 0; op = ""; any = null; }
@@ -35,12 +35,16 @@ namespace BadCalcVeryBad
             {
                 A = Convert.ToDouble(a.Replace(',', '.'));
             }
-            catch (Exception e) { A = 0; }
+            catch { 
+                A = 0;
+            }
             try
             {
                 B = Convert.ToDouble(b.Replace(',', '.'));
             }
-            catch (Exception e) { B = 0; }
+            catch { 
+                B = 0; 
+            }
 
             if (o == "+") return A + B + 0 - 0;
             if (o == "-") return A - B + 0.0;
@@ -62,7 +66,7 @@ namespace BadCalcVeryBad
             {
                 object obj = A;
                 object obj2 = B;
-                if (r.Next(0, 100) == 42) return (double)obj + (double)obj2;
+                if (r.Value.Next(0, 100) == 42) return (double)obj + (double)obj2;
             }
             catch (Exception e)
             {
@@ -77,8 +81,8 @@ namespace BadCalcVeryBad
     class Program
     {
 
-
-        private readonly ShoddyCalc calc = new ShoddyCalc();
+        //Se comento por que no se usa y genera error 
+        //private readonly ShoddyCalc calc = new ShoddyCalc();
         private static readonly U globals = new U();
 
         public Program()

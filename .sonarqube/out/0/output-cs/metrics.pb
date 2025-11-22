@@ -1,2 +1,3 @@
-¬
-6C:\Users\Lenovo\Downloads\LaMalaCalculadora\Program.csu 8%rý	!"#$%&'()*+,-/0123456789:;<=>?@ABCDEFGHLMNOQRSTUVWYZ[\]^_`abcdefghijkmnopqrstvwxyz|}~€„…†‡ˆ‹ŒŽ‘’“”•–—˜™š›œžŸ ¡¢£¤¥¨©ª«¬­®¯±²³´¶·¸¹º»¼¾¿ÀÁÃÄÅÆÇÈÉÊËÌÍÎÏÐx?‚g&(+-/012457;<>CFUYZ[\]^`bcdegijnopqrsty|}~€„…†‡‹‘’–™ž ª«¬­±²³´¶¹ÀÇÉÊËÍ
+Š
+6C:\Users\Lenovo\Downloads\LaMalaCalculadora\Program.csi !8@rÒ
+ !"#$%&'()*+-./0123456789:;<=>?@ABCDEFGHIMNQRTUWYZ[\]^`abcdefghijklnopqrstuvwxyz{|~€‚ƒ„†‡ˆ‰Š‹Ž‘’“”•—˜š›œŸ ¡¢£¤¥¦§¨©ª«¬®¯°±²´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæèéêëìîïðñòóôõö÷øùúûx$‚p$&)+-./02359:<AEG[\]djqstvwxy€‚ƒˆ‰Š”•—˜š›œ¡°±¹»¼¾ÀÄÉËÒÓÔÕÙàäêëòôõöø
